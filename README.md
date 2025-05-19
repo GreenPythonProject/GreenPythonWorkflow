@@ -1,6 +1,8 @@
 # GreenPythonWorkflow
 
-''' name: "CodeQL"
+```
+
+name: "CodeQL"
 
 on:
   push:
@@ -108,4 +110,4 @@ jobs:
       run: |
           echo "total json: ${{ steps.total-measurement-step.outputs.data-total-json }}"    
     
-    ```
+  ```
